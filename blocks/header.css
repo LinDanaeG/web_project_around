@@ -1,0 +1,8 @@
+.header {
+  display: flex;
+  justify-content: flex-start;
+  width: 882px;
+  margin: 45px 0 0;
+  border-bottom: 1px solid #545454;
+  flex-wrap: wrap;
+}
