@@ -22,6 +22,60 @@
           alt="Around th US Logo"
         />
       </header>
+      <section class="profile">
+        <img
+          class="profile__picture"
+          alt="Jacques Cousteau"
+          src="./images/profile.png"
+        />
+        <div class="profile__info">
+          <h1 class="profile__name">Jacques Cousteau</h1>
+          <button class="profile__edit-button"></button>
+          <p class="profile__about">Explorador</p>
+        </div>
+        <button class="profile__add-button"></button>
+      </section>
+
+      <!-- popup edit profile -->
+      <section class="popup" id="popup-edit-profile">
+        <div class="poup__container">
+          <form class="popup__form">
+            <button class="popup__close-button"></button>
+            <h2 class="poput__title">Editar perfil</h2>
+            <input type="text" class="popup__name" placeholder="Nombre" />
+            <input
+              type="text"
+              class="popup__about"
+              placeholder="Acerca de mí"
+            />
+            <button class="popup__save-button">Guardar</button>
+          </form>
+        </div>
+      </section>
+      <!-- popup add button -->
+      <section class="popup" id="new-image-popup">
+        <div class="poup__container">
+          <form class="popup__form">
+            <button
+              class="popup__close-button"
+              id="close-button-new-image"
+            ></button>
+            <h2 class="poput__title">Nuevo Lugar</h2>
+            <input type="text" class="popup__name" placeholder="Título" />
+            <input
+              type="text"
+              class="popup__about"
+              placeholder="Enlace a la imagen"
+            />
+            <button class="popup__save-button" id="popup-create-btn">
+              Crear
+            </button>
+          </form>
+        </div>
+      </section>
+      <section class="elements"></section>
+      <footer class="footer"></footer>
     </div>
+    <script src="scripts/script.js"></script>
   </body>
 </html>
