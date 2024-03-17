@@ -2,6 +2,7 @@ let editButton = document.querySelector(".profile__edit-button");
 let popupElement = document.querySelector(".popup");
 let closeEditButton = document.querySelector(".popup__close-button");
 let saveEditButton = document.querySelector(".popup__save-button");
+let popupContainer = document.querySelector(".poup__container");
 
 let formElement = document.querySelector(".popup__form");
 let nameInput = document.querySelector(".popup__name");
@@ -37,12 +38,11 @@ function handleProfileFormSubmit(event) {
 
 function changeProfileInfo(event) {
   event.preventDefault();
-  nameInput.value = profileName.textContent;
-  jobInput.value = profileAbout.textContent;
-  closePopup();
+  profileName.textContent = nameInput.value;
+  profileAbout.textContent = jobInput.value;
 }
 
-saveEditButton.addEventListener("click", changeProfileInfo);
+popupElement.addEventListener("submit", changeProfileInfo);
 
 // add button
 
