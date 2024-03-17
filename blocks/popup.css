@@ -25,7 +25,7 @@
   opacity: 0.7;
 }
 
-.poup__container {
+.popup__container {
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
