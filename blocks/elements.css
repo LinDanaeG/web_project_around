@@ -50,7 +50,7 @@
   overflow: hidden;
 }
 
-.card__delete-btn {
+.element__info-delete-btn {
   width: 18px;
   height: 19px;
   position: absolute;
@@ -65,11 +65,11 @@
   background-color: transparent;
 }
 
-.card__delete-btn:hover {
+.element__info-delete-btn:hover {
   opacity: 60%;
 }
 
-.card__like-btn {
+.element__info-like-btn {
   background-image: url(../images/like.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -80,7 +80,7 @@
   cursor: pointer;
 }
 
-.card__like-btn:hover {
+.element__info-like-btn:hover {
   opacity: 60%;
 }
 
