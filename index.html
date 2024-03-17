@@ -11,7 +11,7 @@
     <meta name="keywords" content="Around, Jacques, Cousteau" />
     <title>Alrededor de los EEUU</title>
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./vendor/fonts/fonts.css" />
   </head>
   <body>
     <div class="page">
@@ -38,6 +38,7 @@
 
       <!-- popup edit profile -->
       <section class="popup" id="popup-edit-profile">
+        <div class="popup__overlay"></div>
         <div class="poup__container">
           <form class="popup__form">
             <button class="popup__close-button"></button>
@@ -54,6 +55,7 @@
       </section>
       <!-- popup add button -->
       <section class="popup" id="new-image-popup">
+        <div class="popup__overlay"></div>
         <div class="poup__container">
           <form class="popup__form">
             <button
@@ -73,8 +75,67 @@
           </form>
         </div>
       </section>
-      <section class="elements"></section>
-      <footer class="footer"></footer>
+      <section class="elements">
+        <div class="element">
+          <img class="element__image" alt="image" src="./images/Yosemite.png" />
+          <div class="element__info">
+            <h3 class="element__info-name">Valle de Yosemite</h3>
+            <button class="card__like-btn"></button>
+            <button class="card__delete-btn"></button>
+          </div>
+        </div>
+        <div class="element">
+          <img
+            class="element__image"
+            alt="Lago Louise"
+            src="./images/Louise.png"
+          />
+          <div class="element__info">
+            <h3 class="element__info-name">Lago Louise</h3>
+            <button class="card__like-btn"></button>
+            <button class="card__delete-btn"></button>
+          </div>
+        </div>
+        <div class="element">
+          <img
+            class="element__image"
+            alt="Montañas Calvas"
+            src="./images/Calvas.png"
+          />
+          <div class="element__info">
+            <h3 class="element__info-name">Montañas Calvas</h3>
+            <button class="card__like-btn"></button>
+            <button class="card__delete-btn"></button>
+          </div>
+        </div>
+        <div class="element">
+          <img class="element__image" alt="image" src="./images/Latemar.jpeg" />
+          <div class="element__info">
+            <h3 class="element__info-name">Latemar</h3>
+            <button class="card__like-btn"></button>
+            <button class="card__delete-btn"></button>
+          </div>
+        </div>
+        <div class="element">
+          <img class="element__image" alt="image" src="./images/VAnoise.avif" />
+          <div class="element__info">
+            <h3 class="element__info-name">Vanoise National Park</h3>
+            <button class="card__like-btn"></button>
+            <button class="card__delete-btn"></button>
+          </div>
+        </div>
+        <div class="element">
+          <img class="element__image" alt="image" src="./images/lago.jpeg" />
+          <div class="element__info">
+            <h3 class="element__info-name">Lago Di Braies</h3>
+            <button class="card__like-btn"></button>
+            <button class="card__delete-btn"></button>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <h4 class="footer__copyright">&copy; 2024 Danae García</h4>
+      </footer>
     </div>
     <script src="scripts/script.js"></script>
   </body>
