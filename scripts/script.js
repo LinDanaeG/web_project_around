@@ -40,6 +40,7 @@ function changeProfileInfo(event) {
   event.preventDefault();
   profileName.textContent = nameInput.value;
   profileAbout.textContent = jobInput.value;
+  closePopup();
 }
 
 popupElement.addEventListener("submit", changeProfileInfo);
