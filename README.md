@@ -12,4 +12,4 @@ Este proyecto tiene como finalidad crear una red social en la que se puedan agre
 
 # Enlace al sitio web
 
-https://github.com/LinDanaeG/web_project_around
+https://lindanaeg.github.io/web_project_around/
