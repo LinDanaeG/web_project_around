@@ -40,7 +40,7 @@
         <div class="popup__overlay"></div>
         <div class="popup__container">
           <form class="popup__form">
-            <button class="popup__close-button"></button>
+            <button type="button" class="popup__close-button"></button>
             <h2 class="popup__title">Editar perfil</h2>
             <input type="text" class="popup__name" placeholder="Nombre" />
             <input
@@ -57,7 +57,7 @@
         <div class="popup__overlay"></div>
         <div class="popup__container">
           <form class="popup__form">
-            <button
+            <button type="button"
               class="popup__close-button"
               id="close-button-new-image"
             ></button>
@@ -65,7 +65,7 @@
             <input type="text" class="popup__name" placeholder="Título" />
             <input
               type="text"
-              class="popup__about"
+              class="popup__link"
               placeholder="Enlace a la imagen"
             />
             <button class="popup__save-button" id="popup-create-btn">
@@ -74,68 +74,32 @@
           </form>
         </div>
       </section>
-      <section class="elements">
-        <div class="element">
-          <img class="element__image" alt="image" src="./images/Yosemite.png" />
-          <div class="element__info">
-            <h3 class="element__info-name">Valle de Yosemite</h3>
-            <button class="element__info-like-btn"></button>
-            <button class="element__info-delete-btn"></button>
-          </div>
-        </div>
-        <div class="element">
-          <img
-            class="element__image"
-            alt="Lago Louise"
-            src="./images/Louise.png"
-          />
-          <div class="element__info">
-            <h3 class="element__info-name">Lago Louise</h3>
-            <button class="element__info-like-btn"></button>
-            <button class="element__info-delete-btn"></button>
-          </div>
-        </div>
-        <div class="element">
-          <img
-            class="element__image"
-            alt="Montañas Calvas"
-            src="./images/Calvas.png"
-          />
-          <div class="element__info">
-            <h3 class="element__info-name">Montañas Calvas</h3>
-            <button class="element__info-like-btn"></button>
-            <button class="element__info-delete-btn"></button>
-          </div>
-        </div>
-        <div class="element">
-          <img class="element__image" alt="image" src="./images/Latemar.jpeg" />
-          <div class="element__info">
-            <h3 class="element__info-name">Latemar</h3>
-            <button class="element__info-like-btn"></button>
-            <button class="element__info-delete-btn"></button>
-          </div>
-        </div>
-        <div class="element">
-          <img class="element__image" alt="image" src="./images/VAnoise.avif" />
-          <div class="element__info">
-            <h3 class="element__info-name">Vanoise National Park</h3>
-            <button class="element__info-like-btn"></button>
-            <button class="element__info-delete-btn"></button>
-          </div>
-        </div>
-        <div class="element">
-          <img class="element__image" alt="image" src="./images/lago.jpeg" />
-          <div class="element__info">
-            <h3 class="element__info-name">Lago Di Braies</h3>
-            <button class="element__info-like-btn"></button>
-            <button class="element__info-delete-btn"></button>
-          </div>
-        </div>
-      </section>
+      <section class="elements"></section>
       <footer class="footer">
         <h4 class="footer__copyright">&copy; 2024 Danae García</h4>
       </footer>
     </div>
+   <!-- image popup -->
+   <section class="popup" id="image-popup">
+    <div class="popup__overlay"></div>
+    <div class="popup__container-image">
+      <button class="popup__close-button" type="button"></button>
+      <img class="popup__image" rc="" alt="" />
+      <p class="popup__image-title"></p>
+    </div>
+   </section>
+    <!-- Cards Template -->
+
+    <template class="template">
+     <div class="element">
+          <img class="element__image" alt="image" src="" />
+          <div class="element__info">
+            <h3 class="element__info-name"></h3>
+            <button class="element__info-like-btn"></button>
+            <button class="element__info-delete-btn"></button>
+          </div>
+        </div>
+      </template>
     <script src="scripts/script.js"></script>
   </body>
 </html>

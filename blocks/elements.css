@@ -84,6 +84,18 @@
   opacity: 60%;
 }
 
+.element__infor-like-btn_active {
+  background-image: url(../images/like-active.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 21px;
+  height: 19px;
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+
 @media screen and (max-width: 768px) {
   .elements {
     max-width: 282px;
