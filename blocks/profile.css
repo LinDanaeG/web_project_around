@@ -27,6 +27,10 @@
   font-size: 42px;
   font-family: "Inter Medium", Arial, sans-serif;
   line-height: 56px;
+  align-self: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .profile__about {
@@ -37,7 +41,6 @@
   font-size: 18px;
   text-overflow: ellipsis;
   white-space: nowrap;
-  overflow: hidden;
 }
 
 .profile__edit-button {
@@ -48,7 +51,7 @@
   background-color: #000000;
   background-repeat: no-repeat;
   background-position: center;
-  align-self: end;
+  align-self: center;
   cursor: pointer;
   border: 1px solid #ffffff;
   text-overflow: ellipsis;
@@ -113,6 +116,7 @@
     height: 18px;
     position: relative;
     bottom: 26px;
+    left: 125px;
   }
 
   .profile__about {
